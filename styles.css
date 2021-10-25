@@ -54,28 +54,6 @@ html {
 
 /* Track */
 
-/* width */
-::-webkit-scrollbar {
-    width: 15px;
-    background-color: rgb(233, 190, 235);
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #406343; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #5c775e; 
-  }
 
 .loader {
   display: grid;
@@ -2800,10 +2778,15 @@ padding: var(--section-padding);
   }
 }
 
+@media screen and (max-width: 480px) {
+  .contact h1{
+    text-align: center;
+  }
+}
 
-@media only screen and (max-device-width: 480px) {
+/* @media only screen and (max-device-width: 480px) {
     html {
       height: calc(100% + 60px);
       min-height: calc(100% + 60px);
     }
-}
+} */
