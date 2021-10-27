@@ -14,7 +14,7 @@ function init() {
 
     main.style.display = 'block';
     setTimeout(() => (main.style.opacity = 1), 50);
-  }, 10000);
+  }, 10);
 }
 
 init();
